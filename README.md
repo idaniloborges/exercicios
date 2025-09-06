@@ -45,11 +45,3 @@ Se quiser contribuir com melhorias, fique à vontade para abrir uma issue ou env
 
 📄 Licença
 Este projeto está licenciado sob a MIT License.
-
-https://docs.google.com/forms/d/e/1FAIpQLScv-W9yDNHbv-ThHyNxNmcz37Bms0YpeVygDz30JjeQjxPQtA/viewform
-
-https://docs.google.com/forms/d/e/1FAIpQLSeHv9BuX05A0C-alfXoE-Rwp8iEX-tpvCX2_Vq7CcSJdrHzTg/viewform
-
-https://docs.google.com/forms/d/e/1FAIpQLScymrG7b0K1IlD-iIjtUZ7tk7iyXpormMRuR7MLEHpZJGdd5g/viewform
-
-https://docs.google.com/forms/d/e/1FAIpQLSf2iDJEMXXaa55x9HhN9S9Dz12FqT2Qyyg3aSt9YNypfuTLXg/viewform
