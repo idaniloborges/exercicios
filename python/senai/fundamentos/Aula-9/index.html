@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>KIF e Gráficos com Python</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 20px; max-width: 600px; margin: auto; }
+  label { display: block; margin-top: 10px; }
+  input[type=text], input[type=number] { width: 100%; padding: 8px; margin-top: 4px; }
+  button { margin-top: 15px; padding: 10px 15px; }
+  #message { margin-top: 15px; }
+  #chart { margin-top: 30px; max-width: 100%; }
+</style>
+</head>
+<body>
+  <h1>Adicionar item</h1>
+  <form id="itemForm">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required />
+
+    <label for="valor">Valor:</label>
+    <input type="number" id="valor" name="valor" step="0.01" required />
+
+    <button type="submit">Adicionar</button>
+  </form>
+
+  <div id="message"></div>
+
+  <h2>Gráfico de acompanhamento</h2>
+  <img id="chart" src="/plot.png" alt="Gráfico" />
+
+  <script>
+    const form = document.getElementById('itemForm');
+    const message = document.getElementById('message');
+    const chart = document.getElementById('chart');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const nome = document.getElementById('nome').value;
+      const valor = parseFloat(document.getElementById('valor').value);
+
+      try {
+        const res = await fetch('/add_item', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ nome, valor })
+        });
+
+        const data = await res.json();
+
+        if (res.ok) {
+          message.textContent = data.message;
+          form.reset();
+
+          // Atualiza o gráfico forçando recarregar a imagem (cache bust)
+          chart.src = `/plot.png?timestamp=${new Date().getTime()}`;
+        } else {
+          message.textContent = data.error || 'Erro ao adicionar item';
+        }
+      } catch (err) {
+        message.textContent = 'Erro na comunicação com o servidor';
+      }
+    });
+  </script>
+</body>
+</html>
