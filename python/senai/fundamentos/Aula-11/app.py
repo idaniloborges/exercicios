@@ -4,5 +4,9 @@
 
 from calculo import *
 
-print(soma(4,5))
+a, b = float(input('Digite um valor: ')), float(input('Digite outro valor: '))
 
+print(f'Soma: {soma(a,b):.2f}')
+print(f'Subtração: {sub(a,b):.2f}')
+print(f'Multiplicação: {mult(a,b):.2f}')
+print(f'Divisão: {div(a,b):.2f}')
