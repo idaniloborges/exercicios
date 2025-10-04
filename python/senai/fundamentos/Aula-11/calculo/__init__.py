@@ -1,1 +1,1 @@
-from .calculo import soma, sub, mult, div
+from .calculo import *
