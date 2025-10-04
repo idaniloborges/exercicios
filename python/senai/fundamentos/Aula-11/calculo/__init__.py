@@ -1,0 +1,1 @@
+from .calculo import soma, sub, mult, div
