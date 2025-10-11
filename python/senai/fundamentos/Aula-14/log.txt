@@ -1,0 +1,1 @@
+ValueError: sistema com problema na linha 15.ValueError: sistema com problema na linha 15.ValueError: sistema com problema na linha 1.ValueError: sistema com problema na linha 2.ValueError: sistema com problema na linha 3.
