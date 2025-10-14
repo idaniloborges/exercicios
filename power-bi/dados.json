@@ -1,0 +1,75 @@
+[
+  {
+    "ID_Venda": 1,
+    "Data_Venda": "2023-01-01",
+    "Produto": "Camiseta Polo",
+    "Categoria": "Vestuário",
+    "Quantidade": 3,
+    "Preco_Unitario": 60.00,
+    "Total_Venda": 180.00,
+    "Vendedor": "Ana Souza",
+    "Regiao": "Sudeste",
+    "Canal_Venda": "E-commerce"
+  },
+  {
+    "ID_Venda": 2,
+    "Data_Venda": "2023-01-02",
+    "Produto": "Notebook X200",
+    "Categoria": "Eletrônicos",
+    "Quantidade": 1,
+    "Preco_Unitario": 3200.00,
+    "Total_Venda": 3200.00,
+    "Vendedor": "João Lima",
+    "Regiao": "Sul",
+    "Canal_Venda": "Loja Física"
+  },
+  {
+    "ID_Venda": 3,
+    "Data_Venda": "2023-01-03",
+    "Produto": "Tênis Runner",
+    "Categoria": "Calçados",
+    "Quantidade": 2,
+    "Preco_Unitario": 250.00,
+    "Total_Venda": 500.00,
+    "Vendedor": "Maria Oliveira",
+    "Regiao": "Nordeste",
+    "Canal_Venda": "Marketplace"
+  },
+  {
+    "ID_Venda": 4,
+    "Data_Venda": "2023-01-04",
+    "Produto": "Jaqueta Jeans",
+    "Categoria": "Vestuário",
+    "Quantidade": 1,
+    "Preco_Unitario": 180.00,
+    "Total_Venda": 180.00,
+    "Vendedor": "Carlos Silva",
+    "Regiao": "Centro-Oeste",
+    "Canal_Venda": "E-commerce"
+  },
+  {
+    "ID_Venda": 5,
+    "Data_Venda": "2023-01-05",
+    "Produto": "Fone Bluetooth",
+    "Categoria": "Eletrônicos",
+    "Quantidade": 3,
+    "Preco_Unitario": 150.00,
+    "Total_Venda": 450.00,
+    "Vendedor": "Luciana Costa",
+    "Regiao": "Norte",
+    "Canal_Venda": "Marketplace"
+  },
+  
+  {
+    "ID_Venda": 100,
+    "Data_Venda": "2023-03-31",
+    "Produto": "Camiseta Estampada",
+    "Categoria": "Vestuário",
+    "Quantidade": 5,
+    "Preco_Unitario": 55.00,
+    "Total_Venda": 275.00,
+    "Vendedor": "Paula Martins",
+    "Regiao": "Sudeste",
+    "Canal_Venda": "Loja Física"
+  }
+]

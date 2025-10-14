@@ -1,0 +1,17 @@
+Power BI
+
+Aplicações
+-melhorar a performance e desempenho
+-apoiar a tomada de decisão
+
+O termo BI foi utilizado pela primeira vez em 1958 por Hans Peter.
+
+ETL
+Coleta -> Tratamento -> Análise -> Visualização
+
+ELT
+
+
+
+Power Pivot - Orquestrador de ferramentas. Cria relacionamentos entre tabelas, define cálculos complexos e etc (excel, ppt, sql...)
+Power Query - Importa e transforma dados de diversas fontes.
