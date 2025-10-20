@@ -1,8 +1,8 @@
-Power BI
+# Power BI
 
-Aplicações
--melhorar a performance e desempenho
--apoiar a tomada de decisão
+## Aplicações
+-Melhorar a performance e desempenho
+-Apoiar a tomada de decisão
 
 O termo BI foi utilizado pela primeira vez em 1958 por Hans Peter.
 
@@ -10,8 +10,19 @@ ETL
 Coleta -> Tratamento -> Análise -> Visualização
 
 ELT
+Coleta -> Visualização -> Tratamento
 
-
-
-Power Pivot - Orquestrador de ferramentas. Cria relacionamentos entre tabelas, define cálculos complexos e etc (excel, ppt, sql...)
+## Ferramentas integradas
 Power Query - Importa e transforma dados de diversas fontes.
+Power Pivot - Orquestrador de ferramentas. Cria relacionamentos entre tabelas, define cálculos complexos e etc (excel, ppt, sql...)
+
+## Funções
+As funções utilizadas em Power BI são identicas as do MS Excel. Porém, não há tradução para o português.
+
+Soma = SUM()
+Média = Average()
+Mínimo = MIN()
+Máximo = MAX()
+
+Relação entre tabelas = RELATED()
+
