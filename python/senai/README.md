@@ -14,3 +14,9 @@ https://prairie-heath-fb8.notion.site/Python-para-Data-Science-5f8f1b72191e45eca
 ```
 https://streamlit.io/
 ```
+```
+https://matplotlib.org/
+```
+```
+https://seaborn.pydata.org/
+````
