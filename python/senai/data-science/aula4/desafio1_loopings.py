@@ -81,14 +81,16 @@ Digite sua opção: ''')
 Digite sua opção: ''')
             elif opcao == '4':
                 saque = float(input('Digite o valor a ser sacado: '))
-                # saldo = sum(extrato)
+                saldo = sum(extrato)
                 if saque > saldo:
                     print('Saldo insuficiente...')
                     saque = float(input('Digite o valor a ser sacado: '))
                 else:
                     extrato.append(-(saque))
-                    # saldo = sum(extrato)
+                    saldo = sum(extrato)
                     # print(saldo-saque)
+                    print('--------------')
+                    print(f'Saque realizado: R${saque:.2f}')
                     print(f'O novo saldo é: R${saldo:.2f}')
                     print('--------------')
                     opcao = input('''
@@ -108,4 +110,4 @@ Digite sua opção: ''')
 5 - Sair do sistema
 Digite sua opção: ''')
         print('Saindo...')
-# print('Tente novamente...')
+print('Digite "Enter" para sair')
