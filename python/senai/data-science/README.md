@@ -1,3 +1,8 @@
+# Cronograma do curso
+```bash
+https://prairie-heath-fb8.notion.site/Python-para-Data-Science-5f8f1b72191e45ecac257b25230d59f1
+```
+
 # Criar aplicação
 
 ## 1- Abrir o prompt de comando e instalar a biblioteca auto-py-to-exe utilizando o comando abaixo:
